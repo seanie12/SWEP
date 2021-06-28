@@ -16,7 +16,7 @@ on which it largely outperforms strong baselines, including a QA-pair generation
 
 
 # Reference
-To cite the code/data/paper, please use this BibTex
+To cite the code/paper, please use this BibTex
 ```bibtex
 @inproceedings{lee2021learning,
   title={Learning to Perturb Word Embeddings for Out-of-distribution QA},
