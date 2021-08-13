@@ -48,6 +48,9 @@ wget https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v1.1.json -O ./squ
 wget https://rajpurkar.github.io/SQuAD-explorer/dataset/dev-v1.1.json -O ./squad/dev-v1.1.json
 ```
 
+## Download pickle file for training SQuAD
+We provide preprocessed file of SQuAD dataset. Download tar.gz file from [here](https://drive.google.com/file/d/1cn52AG6mVviWt-zRXO8QyXXyex3rbCUi/view?usp=sharing) and unzip it at the root directory.
+
 ## Download BioASQ
 ```bash
 mkdir bio-asq
