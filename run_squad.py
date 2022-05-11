@@ -308,7 +308,7 @@ if __name__ == "__main__":
     parser.add_argument("--read_data", action="store_true",
                         help="read data from json file")
     parser.add_argument("--pickle_folder", type=str, default="./noans_pickle")
-
+    parser.add_argument("--beta", type=float, default=1.0)
     parser.add_argument("--dropout", type=float, default=0.1)
     parser.add_argument("--electra", action="store_true")
     args = parser.parse_args()
